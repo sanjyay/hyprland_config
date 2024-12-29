@@ -1,0 +1,22 @@
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+x-scheme-handler/http=zen-beta.desktop
+x-scheme-handler/https=zen-beta.desktop
+x-scheme-handler/chrome=zen-beta.desktop
+text/html=zen-beta.desktop
+application/x-extension-htm=zen-beta.desktop
+application/x-extension-html=zen-beta.desktop
+application/x-extension-shtml=zen-beta.desktop
+application/xhtml+xml=zen-beta.desktop
+application/x-extension-xhtml=zen-beta.desktop
+application/x-extension-xht=zen-beta.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+
+[Added Associations]
+text/plain=org.xfce.mousepad.desktop;
+x-scheme-handler/http=zen-beta.desktop;
+x-scheme-handler/https=zen-beta.desktop;
+text/html=zen-beta.desktop;
+text/csv=wps-office-et.desktop;
+application/schema+json=org.xfce.mousepad.desktop;

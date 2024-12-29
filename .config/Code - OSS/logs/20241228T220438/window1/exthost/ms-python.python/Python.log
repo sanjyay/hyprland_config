@@ -1,0 +1,136 @@
+2024-12-28 22:05:07.163 [info] Telemetry level is off
+2024-12-28 22:05:07.163 [info] Experiments are disabled, only manually opted experiments are active.
+2024-12-28 22:05:07.163 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:46493)
+	at new v (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:896779)
+	at me (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1747249)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750613
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750641
+	at Ee (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750708)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751188
+	at we (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751129)
+	at Te (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751163)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1748402
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750007
+	at Array.reduce (<anonymous>)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1749979
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750261
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750641
+	at Ee (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750708)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751188
+	at we (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751129)
+	at Te (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751163)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1748402
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1778072
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1778093
+	at e._get (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1777106)
+	at e._getButThrowIfAsync (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1777166)
+	at e.get (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1772875)
+	at e.dynamicValue (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1762608)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1748785
+	at Se (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1749041)
+	at Ee (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750757)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751188
+	at we (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751129)
+	at Te (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751163)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1748402
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1748336
+	at Array.map (<anonymous>)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1748307
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750007
+	at Array.reduce (<anonymous>)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1749979
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750261
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750641
+	at Ee (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1750708)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751188
+	at we (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751129)
+	at Te (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1751163)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1748402
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1778072
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1778093
+	at e._get (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1777106)
+	at e._getButThrowIfAsync (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1777166)
+	at e.get (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:1772875)
+	at a.get (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:526262)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:441854
+	at async t.activateComponents (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:440134)
+	at async /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2705021
+	at async e (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2704553)
+	at async K0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+	at async K0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+	at async K0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)]
+2024-12-28 22:05:07.163 [info] Starting Environment refresh
+2024-12-28 22:05:07.163 [info] Searching for interpreters in posix paths locator
+2024-12-28 22:05:07.163 [info] Searching for pyenv environments
+2024-12-28 22:05:07.163 [info] Searching for conda environments
+2024-12-28 22:05:07.163 [info] Searching for global virtual environments
+2024-12-28 22:05:07.163 [info] Searching for custom virtual environments
+2024-12-28 22:05:07.163 [info] pyenv is not installed
+2024-12-28 22:05:07.163 [info] Finished searching for pyenv environments: 24 milliseconds
+2024-12-28 22:05:07.163 [info] Finished searching for custom virtual envs: 22 milliseconds
+2024-12-28 22:05:07.163 [info] > conda info --json
+2024-12-28 22:05:07.163 [info] Finished searching for global virtual envs: 128 milliseconds
+2024-12-28 22:05:07.163 [info] > /opt/miniconda3/bin/conda info --json
+2024-12-28 22:05:07.174 [info] > ~/.conda/bin/conda info --json
+2024-12-28 22:05:07.183 [info] > ~/.condarc/bin/conda info --json
+2024-12-28 22:05:07.187 [info] Found: /bin/python --> /bin/python3.13
+2024-12-28 22:05:07.199 [info] Found: /bin/python3 --> /bin/python3.13
+2024-12-28 22:05:07.199 [info] Found: /bin/python3.13 --> /bin/python3.13
+2024-12-28 22:05:07.236 [info] Found: /sbin/python --> /sbin/python3.13
+2024-12-28 22:05:07.236 [info] Found: /sbin/python3 --> /sbin/python3.13
+2024-12-28 22:05:07.236 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2024-12-28 22:05:07.241 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2024-12-28 22:05:07.241 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2024-12-28 22:05:07.241 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2024-12-28 22:05:07.267 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2024-12-28 22:05:07.267 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2024-12-28 22:05:07.267 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2024-12-28 22:05:07.414 [info] > ~/build/miniconda3/bin/conda info --json
+2024-12-28 22:05:07.436 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/interpreterInfo.py
+2024-12-28 22:05:07.466 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/interpreterInfo.py
+2024-12-28 22:05:07.476 [info] Finished searching for interpreters in posix paths locator: 470 milliseconds
+2024-12-28 22:05:07.549 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/interpreterInfo.py
+2024-12-28 22:05:07.557 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/interpreterInfo.py
+2024-12-28 22:05:12.694 [info] > ~/build/miniconda3/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/interpreterInfo.py
+2024-12-28 22:05:12.730 [info] > ~/build/miniconda3/envs/.Venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/python_files/interpreterInfo.py
+2024-12-28 22:05:12.739 [info] Finished searching for conda environments: 5729 milliseconds
+2024-12-28 22:05:12.745 [info] Environments refresh paths discovered (event): 5740 milliseconds
+2024-12-28 22:05:12.745 [info] Environments refresh paths discovered: 5740 milliseconds
+2024-12-28 22:05:13.087 [info] Environments refresh finished (event): 6082 milliseconds
+2024-12-28 22:05:13.105 [info] Environment refresh took 6102 milliseconds
+2024-12-28 22:05:13.114 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 6113ms, has a falsy return value, Arg 1: <Uri:/home/linux/Projects/leetcode.py>, Arg 2: {"started":1735403706337}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+  	at C.activate (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:932646)
+  	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2447)]
+]
+2024-12-28 22:05:13.114 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+	at C.activate (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:932646)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2447)]
+2024-12-28 22:05:13.114 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+	at C.activate (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:932646)
+	at /home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/linux/.vscode-oss/extensions/ms-python.python-2024.22.0-universal/out/client/extension.js:2:2447)]
+2024-12-28 22:05:13.122 [info] Python interpreter path: /bin/python
+2024-12-28 22:05:14.557 [info] Starting Jedi language server for default.
